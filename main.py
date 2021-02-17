@@ -9,7 +9,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
 response = requests.get(f"https://newsapi.org/v2/everything?q=covid&apiKey={os.environ['API_KEY']}")
-articles = response.json()['articles'][:2]
+articles = response.json()['articles'][:9]
 
 CHROMEDRIVER = os.environ['CHROME_DRIVER']
 
