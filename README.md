@@ -1,4 +1,4 @@
-# Covid19_daily_news
+# Covid19 Daily Feed
 
 This Python script iterates trough the top 10 covid-related articles of the day, collected trough an API call to NEWSAPI. 
 
